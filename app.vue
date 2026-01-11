@@ -9,9 +9,9 @@ useHead({
   meta: [
     { name: 'apple-mobile-web-app-capable', content: 'yes' },
     { name: 'apple-mobile-web-app-status-bar-style', content: 'default' },
-    { name: 'theme-color', content: '#EBF5F9' },
-    { name: 'theme-color', media: '(prefers-color-scheme: light)', content: '#EBF5F9' },
-    { name: 'theme-color', media: '(prefers-color-scheme: dark)', content: '#EBF5F9' }
+    { name: 'theme-color', content: '#0369a1' },
+    { name: 'theme-color', media: '(prefers-color-scheme: light)', content: '#0369a1' },
+    { name: 'theme-color', media: '(prefers-color-scheme: dark)', content: '#0369a1' }
   ]
 })
 
