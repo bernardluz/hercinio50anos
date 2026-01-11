@@ -18,6 +18,7 @@ useSeoMeta({
 })
 </script>
 
+
 <template>
   <div class="min-h-screen bg-[#EBF5F9] text-slate-800 font-sans selection:bg-sky-200 selection:text-sky-900 overflow-x-hidden">
     <TheHero />
