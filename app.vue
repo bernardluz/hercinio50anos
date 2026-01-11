@@ -10,8 +10,8 @@ useHead({
 useSeoMeta({
   title: 'Hercínio 50 Anos - Convite Especial',
   ogTitle: 'Hercínio 50 Anos - Convite Especial',
-  description: 'Você é nosso convidado para celebrar os 50 anos de Hercínio Gonçalves. Junte-se a nós neste momento especial!',
-  ogDescription: 'Você é nosso convidado para celebrar os 50 anos de Hercínio Gonçalves. Junte-se a nós neste momento especial!',
+  description: 'Você é nosso convidado para celebrar os 50 anos de Hercínio Gonçalves!',
+  ogDescription: 'Você é nosso convidado para celebrar os 50 anos de Hercínio Gonçalves!',
   ogImage: '/images/foto_hercinio.jpeg',
   twitterCard: 'summary_large_image',
 })
