@@ -14,6 +14,7 @@ useSeoMeta({
   ogDescription: 'Você é nosso convidado para celebrar os meus 50 anos!',
   ogImage: '/images/foto_hercinio.jpeg',
   twitterCard: 'summary_large_image',
+  themeColor: '#EBF5F9',
 })
 </script>
 
