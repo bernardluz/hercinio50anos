@@ -1,11 +1,19 @@
 <script setup lang="ts">
 useHead({
-  title: 'Hercínio 50 Anos - Convite Especial',
   link: [
     { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
     { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
     { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Great+Vibes&family=Montserrat:wght@300;400;500;600&display=swap' }
   ]
+})
+
+useSeoMeta({
+  title: 'Hercínio 50 Anos - Convite Especial',
+  ogTitle: 'Hercínio 50 Anos - Convite Especial',
+  description: 'Você é nosso convidado para celebrar os 50 anos de Hercínio Gonçalves. Junte-se a nós neste momento especial!',
+  ogDescription: 'Você é nosso convidado para celebrar os 50 anos de Hercínio Gonçalves. Junte-se a nós neste momento especial!',
+  ogImage: '/images/foto_hercinio.jpeg',
+  twitterCard: 'summary_large_image',
 })
 </script>
 
