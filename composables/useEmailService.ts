@@ -1,10 +1,5 @@
 import emailjs from '@emailjs/browser'
 
-// Configurações do serviço (Idealmente viriam de variáveis de ambiente em projetos reais, 
-// mas hardcoded aqui para simplicidade do setup atual)
-const EMAILJS_SERVICE_ID = 'service_xbfjvqy'
-const EMAILJS_TEMPLATE_ID = 'template_99v0dmk'
-const EMAILJS_PUBLIC_KEY = 'PG4ZrD1Cy5EOeqU2i'
 
 interface RsvpData {
     name: string;
@@ -12,6 +7,12 @@ interface RsvpData {
 }
 
 export const useEmailService = () => {
+    // Configurações via Runtime Config (Variáveis de Ambiente)
+    const config = useRuntimeConfig()
+    const EMAILJS_SERVICE_ID = config.public.emailjsServiceId as string
+    const EMAILJS_TEMPLATE_ID = config.public.emailjsTemplateId as string
+    const EMAILJS_PUBLIC_KEY = config.public.emailjsPublicKey as string
+
     const isSending = ref(false)
     const error = ref<string | null>(null)
 
