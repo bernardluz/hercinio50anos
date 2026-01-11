@@ -1,5 +1,5 @@
 <template>
-    <section class="py-24 px-4 bg-white relative">
+    <section class="py-24 px-4 bg-[#EBF5F9] relative">
         <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
             <div class="order-2 md:order-1 space-y-6 text-center md:text-left">
                 <h3 class="text-4xl font-serif text-sky-800 mb-6" style="font-family: 'Cinzel', serif;">Prenda Coletiva</h3>

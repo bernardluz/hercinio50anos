@@ -1,5 +1,5 @@
 <template>
-    <section class="py-24 px-4 bg-[#EBF5F9] relative">
+    <section class="py-24 px-4 bg-white relative">
         <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-16">
             <!-- Details -->
             <div class="space-y-12">
