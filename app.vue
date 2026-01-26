@@ -3,7 +3,7 @@ useHead({
   link: [
     { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
     { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
-    { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Great+Vibes&family=Montserrat:wght@300;400;500;600&display=swap' },
+    { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Great+Vibes&family=Montserrat:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap' },
     { rel: 'icon', type: 'image/png', href: '/favicon.png' }
   ],
   meta: [
@@ -29,11 +29,7 @@ useSeoMeta({
 
 <template>
   <div class="min-h-screen bg-[#EBF5F9] text-slate-800 font-sans selection:bg-sky-200 selection:text-sky-900 overflow-x-hidden">
-    <TheHero />
-    <TheDetails />
-    <TheAbout />
-    <TheRsvp />
-    <TheFooter />
+    <NuxtPage />
   </div>
 </template>
 
